@@ -1,6 +1,17 @@
 # stringencoding
 String encoding using a custom logic in Scala.
 
+Custom logic - 
+
+ 1. vowels are replaced with number: a -> 1, e -> 2, i -> 3, o -> 4, and u -> 5
+ 2. consonants are replaced with previous letter: b -> a, c -> b, d -> c, etc.
+ 3. y is replaced with space
+ 4. space is replaced with y
+ 5. The result should be in lower case
+ 6. Nmbers are replaced with their reverse: 1 -> 1, 23 -> 32, 1234 -> 4321
+ 7. The special characters will be as is
+ 
+
 Example - 
 Input - Hello World
 Output - g2kk4yv4qkc
